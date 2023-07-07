@@ -1,0 +1,312 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+make: *** No rule to make target `main.o', needed by `push_swap'.  Stop.
+
+
+# Make data base, printed on Wed Jul 27 15:41:44 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/tbrulhar/Documents/42_tronc_commun/2_circle/push_swap
+# makefile
+SHELL = /bin/sh
+# makefile (from `Makefile', line 18)
+RM = rm -f
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 20)
+CFLAGS = -Wall -Wextra -Werror -g
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 1)
+SRCS = main.c list_parsing.c sort_big_stack.c small_digit_transform.c sort_small_stack.c small_stack_movement.c big_stack_movement.c special_case_2_3.c 
+# makefile (from `Makefile', line 16)
+GCC = gcc
+# makefile (from `Makefile', line 10)
+OBJS = ${SRCS:.c=.o}
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /Users/tbrulhar/.brew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki
+# makefile (from `Makefile', line 24)
+FRAMLIBS = -L ${LBFT_PATH} -lft -framework OpenGL -framework AppKit
+# environment
+LaunchInstanceID = 9598F6D3-6D67-40C6-A68D-11D7095A8CD9
+# makefile (from `Makefile', line 14)
+AR = ar rcs
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.g8AHksJRBQ/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+HOMEBREW_TEMP = /tmp/tbrulhar/Homebrew/Temp
+# environment
+PWD = /Users/tbrulhar/Documents/42_tronc_commun/2_circle/push_swap
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/tbrulhar
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/tbrulhar/Library/Application Support/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
+# environment
+LOGNAME = tbrulhar
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+HOMEBREW_CACHE = /tmp/tbrulhar/Homebrew/Caches
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = tbrulhar
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 12)
+NAME = push_swap
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/zz/zyxvpxvq6csfxvn_n000cbx00032z8/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/tbrulhar/Library/Application Support/Code/1.69.1-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = com.apple.xpc.launchd.oneshot.0x10000002.Electron
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x18BE8:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 22)
+LBFT_PATH = ./libft/
+# environment
+LC_ALL = C
+# environment
+SECURITYSESSIONID = 186a7
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 997
+# variable set hash-table stats:
+# Load=70/1024=7%, Rehash=0, Collisions=5/99=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777225, inode 704650): 22 files, no impossibilities.
+
+# 22 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all: push_swap
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-04-21 16:50:01
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+sort_big_stack.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 29):
+	$(GCC) $(CFLAGS) -Imlx -c $< -o $@
+	
+
+fclean: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 42):
+	${RM} ${NAME}
+	@$(MAKE) -C $(LBFT_PATH) fclean
+	
+
+# Not a target:
+big_stack_movement.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+list_parsing.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+small_stack_movement.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+special_case_2_3.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+re: fclean push_swap
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 38):
+	${RM} ${OBJS}
+	@$(MAKE) -C $(LBFT_PATH) clean
+	
+
+# Not a target:
+small_digit_transform.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+push_swap: main.o list_parsing.o sort_big_stack.o small_digit_transform.o sort_small_stack.o small_stack_movement.o big_stack_movement.o special_case_2_3.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-04-21 17:05:45
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 32):
+	@$(MAKE) -C $(LBFT_PATH)
+	$(GCC) $(OBJS) $(CFLAGS) -I ${LBFT_PATH} -o $(NAME) $(FRAMLIBS)
+	
+
+# Not a target:
+sort_small_stack.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.o:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=17/1024=2%, Rehash=0, Collisions=0/42=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Jul 27 15:41:44 2022
+
+ 

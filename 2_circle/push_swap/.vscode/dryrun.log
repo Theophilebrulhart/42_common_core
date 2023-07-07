@@ -1,0 +1,109 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/tbrulhar/Documents/42_tronc_commun/2_circle/push_swap'
+gcc -Wall -Wextra -Werror -g -Imlx -c main.c -o main.o
+ 
+gcc -Wall -Wextra -Werror -g -Imlx -c list_parsing.c -o list_parsing.o
+gcc -Wall -Wextra -Werror -g -Imlx -c sort_big_stack.c -o sort_big_stack.o
+gcc -Wall -Wextra -Werror -g -Imlx -c small_digit_transform.c -o small_digit_transform.o
+gcc -Wall -Wextra -Werror -g -Imlx -c sort_small_stack.c -o sort_small_stack.o
+gcc -Wall -Wextra -Werror -g -Imlx -c small_stack_movement.c -o small_stack_movement.o
+gcc -Wall -Wextra -Werror -g -Imlx -c big_stack_movement.c -o big_stack_movement.o
+gcc -Wall -Wextra -Werror -g -Imlx -c special_case_2_3.c -o special_case_2_3.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -C ./libft/
+ 
+make[1]: Entering directory `/Users/tbrulhar/Documents/42_tronc_commun/2_circle/push_swap/libft'
+ 
+echo Compiling ft_striteri.c
+gcc -c -Wall -Werror -Wextra ft_striteri.c -o ft_striteri.o
+echo Compiling ft_strmapi.c
+gcc -c -Wall -Werror -Wextra ft_strmapi.c -o ft_strmapi.o
+ 
+echo Compiling ft_putnbr_fd.c
+gcc -c -Wall -Werror -Wextra ft_putnbr_fd.c -o ft_putnbr_fd.o
+echo Compiling ft_putendl_fd.c
+gcc -c -Wall -Werror -Wextra ft_putendl_fd.c -o ft_putendl_fd.o
+echo Compiling ft_putstr_fd.c
+gcc -c -Wall -Werror -Wextra ft_putstr_fd.c -o ft_putstr_fd.o
+echo Compiling ft_putchar_fd.c
+gcc -c -Wall -Werror -Wextra ft_putchar_fd.c -o ft_putchar_fd.o
+echo Compiling ft_split.c
+gcc -c -Wall -Werror -Wextra ft_split.c -o ft_split.o
+echo Compiling ft_itoa.c
+gcc -c -Wall -Werror -Wextra ft_itoa.c -o ft_itoa.o
+echo Compiling ft_strtrim.c
+gcc -c -Wall -Werror -Wextra ft_strtrim.c -o ft_strtrim.o
+echo Compiling ft_substr.c
+gcc -c -Wall -Werror -Wextra ft_substr.c -o ft_substr.o
+echo Compiling ft_strjoin.c
+gcc -c -Wall -Werror -Wextra ft_strjoin.c -o ft_strjoin.o
+echo Compiling ft_memcmp.c
+gcc -c -Wall -Werror -Wextra ft_memcmp.c -o ft_memcmp.o
+echo Compiling ft_strchr.c
+gcc -c -Wall -Werror -Wextra ft_strchr.c -o ft_strchr.o
+echo Compiling ft_strdup.c
+gcc -c -Wall -Werror -Wextra ft_strdup.c -o ft_strdup.o
+echo Compiling ft_strlcat.c
+gcc -c -Wall -Werror -Wextra ft_strlcat.c -o ft_strlcat.o
+echo Compiling ft_strrchr.c
+gcc -c -Wall -Werror -Wextra ft_strrchr.c -o ft_strrchr.o
+echo Compiling ft_strncmp.c
+gcc -c -Wall -Werror -Wextra ft_strncmp.c -o ft_strncmp.o
+echo Compiling ft_strnstr.c
+gcc -c -Wall -Werror -Wextra ft_strnstr.c -o ft_strnstr.o
+echo Compiling ft_isalpha.c
+gcc -c -Wall -Werror -Wextra ft_isalpha.c -o ft_isalpha.o
+echo Compiling ft_isdigit.c
+gcc -c -Wall -Werror -Wextra ft_isdigit.c -o ft_isdigit.o
+echo Compiling ft_isalnum.c
+gcc -c -Wall -Werror -Wextra ft_isalnum.c -o ft_isalnum.o
+echo Compiling ft_isascii.c
+gcc -c -Wall -Werror -Wextra ft_isascii.c -o ft_isascii.o
+echo Compiling ft_isprint.c
+gcc -c -Wall -Werror -Wextra ft_isprint.c -o ft_isprint.o
+echo Compiling ft_strlen.c
+gcc -c -Wall -Werror -Wextra ft_strlen.c -o ft_strlen.o
+echo Compiling ft_memset.c
+gcc -c -Wall -Werror -Wextra ft_memset.c -o ft_memset.o
+echo Compiling ft_bzero.c
+gcc -c -Wall -Werror -Wextra ft_bzero.c -o ft_bzero.o
+echo Compiling ft_memcpy.c
+gcc -c -Wall -Werror -Wextra ft_memcpy.c -o ft_memcpy.o
+echo Compiling ft_memmove.c
+gcc -c -Wall -Werror -Wextra ft_memmove.c -o ft_memmove.o
+echo Compiling ft_atoi.c
+gcc -c -Wall -Werror -Wextra ft_atoi.c -o ft_atoi.o
+echo Compiling ft_toupper.c
+gcc -c -Wall -Werror -Wextra ft_toupper.c -o ft_toupper.o
+echo Compiling ft_tolower.c
+gcc -c -Wall -Werror -Wextra ft_tolower.c -o ft_tolower.o
+echo Compiling ft_strlcpy.c
+gcc -c -Wall -Werror -Wextra ft_strlcpy.c -o ft_strlcpy.o
+echo Compiling ft_memchr.c
+gcc -c -Wall -Werror -Wextra ft_memchr.c -o ft_memchr.o
+echo Compiling ft_calloc.c
+gcc -c -Wall -Werror -Wextra ft_calloc.c -o ft_calloc.o
+ 
+echo Compiling ft_lstnew.c
+gcc -c -Wall -Werror -Wextra ft_lstnew.c -o ft_lstnew.o
+echo Compiling ft_lstadd_front.c
+gcc -c -Wall -Werror -Wextra ft_lstadd_front.c -o ft_lstadd_front.o
+echo Compiling ft_lstsize.c
+gcc -c -Wall -Werror -Wextra ft_lstsize.c -o ft_lstsize.o
+echo Compiling ft_lstlast.c
+gcc -c -Wall -Werror -Wextra ft_lstlast.c -o ft_lstlast.o
+echo Compiling ft_lstadd_back.c
+gcc -c -Wall -Werror -Wextra ft_lstadd_back.c -o ft_lstadd_back.o
+echo Compiling ft_lstdelone.c
+gcc -c -Wall -Werror -Wextra ft_lstdelone.c -o ft_lstdelone.o
+echo Compiling ft_lstclear.c
+gcc -c -Wall -Werror -Wextra ft_lstclear.c -o ft_lstclear.o
+echo Compiling ft_lstiter.c
+gcc -c -Wall -Werror -Wextra ft_lstiter.c -o ft_lstiter.o
+echo Compiling ft_lstmap.c
+gcc -c -Wall -Werror -Wextra ft_lstmap.c -o ft_lstmap.o
+echo make libft.a
+ar -rcs libft.a ft_striteri.o ft_strmapi.o ft_putnbr_fd.o ft_putendl_fd.o ft_putstr_fd.o ft_putchar_fd.o ft_split.o ft_itoa.o ft_strtrim.o ft_substr.o ft_strjoin.o ft_memcmp.o ft_strchr.o ft_strdup.o ft_strlcat.o ft_strrchr.o ft_strncmp.o ft_strnstr.o ft_isalpha.o ft_isdigit.o ft_isalnum.o ft_isascii.o ft_isprint.o ft_strlen.o ft_memset.o ft_bzero.o ft_memcpy.o ft_memmove.o ft_atoi.o ft_toupper.o ft_tolower.o ft_strlcpy.o ft_memchr.o ft_calloc.o ft_lstnew.o ft_lstadd_front.o ft_lstsize.o ft_lstlast.o ft_lstadd_back.o ft_lstdelone.o ft_lstclear.o ft_lstiter.o ft_lstmap.o
+make[1]: Leaving directory `/Users/tbrulhar/Documents/42_tronc_commun/2_circle/push_swap/libft'
+gcc main.o list_parsing.o sort_big_stack.o small_digit_transform.o sort_small_stack.o small_stack_movement.o big_stack_movement.o special_case_2_3.o -Wall -Wextra -Werror -g -I ./libft/ -o push_swap -L ./libft/ -lft -framework OpenGL -framework AppKit
+make: Leaving directory `/Users/tbrulhar/Documents/42_tronc_commun/2_circle/push_swap'
+ 

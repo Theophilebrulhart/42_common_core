@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/tbrulhar/Documents/42_tronc_commun'
+make: Leaving directory `/Users/tbrulhar/Documents/42_tronc_commun'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

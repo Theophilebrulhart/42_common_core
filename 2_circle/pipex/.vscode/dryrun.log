@@ -1,0 +1,19 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/tbrulhar/Documents/42_tronc_commun/2_circle/pipex'
+gcc -Wall -Wextra -Werror -g -c main.c -o main.o
+gcc -Wall -Wextra -Werror -g -c parsing_command.c -o parsing_command.o
+gcc -Wall -Wextra -Werror -g -c ft_split.c -o ft_split.o
+gcc -Wall -Wextra -Werror -g -c child_execution.c -o child_execution.o
+gcc -Wall -Wextra -Werror -g -c error_file.c -o error_file.o
+gcc -Wall -Wextra -Werror -g -c waitpid.c -o waitpid.o
+gcc -Wall -Wextra -Werror -g -c access_path.c -o access_path.o
+gcc -Wall -Wextra -Werror -g -c printf/ft_printf.c -o printf/ft_printf.o
+gcc -Wall -Wextra -Werror -g -c printf/ft_sort_out.c -o printf/ft_sort_out.o
+gcc -Wall -Wextra -Werror -g -c printf/ft_itoa_print.c -o printf/ft_itoa_print.o
+gcc -Wall -Wextra -Werror -g -c printf/ft_itoa_base_print.c -o printf/ft_itoa_base_print.o
+ 
+gcc -Wall -Wextra -Werror -g -c printf/ft_putchar_print.c -o printf/ft_putchar_print.o
+gcc -Wall -Wextra -Werror -g -c printf/ft_putstr_print.c -o printf/ft_putstr_print.o
+gcc main.o parsing_command.o ft_split.o child_execution.o error_file.o waitpid.o access_path.o printf/ft_printf.o printf/ft_sort_out.o printf/ft_itoa_print.o printf/ft_itoa_base_print.o printf/ft_putchar_print.o printf/ft_putstr_print.o -Wall -Wextra -Werror -g -o pipex
+make: Leaving directory `/Users/tbrulhar/Documents/42_tronc_commun/2_circle/pipex'
+ 

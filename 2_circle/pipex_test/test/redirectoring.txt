@@ -1,0 +1,11 @@
+
+
+ now we write in the file
+
+
+PING google.com (216.58.215.238): 56 data bytes
+64 bytes from 216.58.215.238: icmp_seq=0 ttl=114 time=6.524 ms
+
+--- google.com ping statistics ---
+1 packets transmitted, 1 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 6.524/6.524/6.524/0.000 ms
